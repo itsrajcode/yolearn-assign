@@ -13,9 +13,10 @@ export const StartedButton = ({
   const variants = {
     primary: "bg-emerald-700 hover:bg-emerald-800 text-white px-5 py-2",
     secondary:
-      "bg-transparent text-emerald-600 hover:text-emerald-700 border border-emerald-600 px-5 py-2",
+      "bg-transparent text-[#40E0D0] hover:text-emerald-700 border border-emerald-600 px-5 py-2",
     tertiary: "bg-transparent text-emerald-600 hover:text-emerald-700",
     link: "bg-transparent text-emerald-600 hover:underline p-0",
+    outline: "bg-white text-[#40E0D0] border border-[#40E0D0] hover:bg-emerald-50 px-5 py-2"
   };
 
   return (
